@@ -39,8 +39,7 @@ HIGHLIGHTS = [
 ]
 
 ABSTRACT = (
-    "Pixel-level reference labels are the dominant cost of land-cover mapping, especially for "
-    "small agencies. Self-supervised vision foundation models promise to reduce this "
+    "Pixel-level reference labels are the dominant cost of land-cover mapping. Self-supervised vision foundation models promise to reduce this "
     "cost, but practitioners lack evidence on how many labels are still needed, how to collect "
     "them, and whether the answer depends on the model. We report a controlled label-budget study "
     "with frozen DINOv2 patch features on two very-high-resolution benchmarks, DeepGlobe (rural) "
@@ -48,7 +47,8 @@ ABSTRACT = (
     "full pool, compared dense annotation with sparse single-pixel point labels, and tested "
     "linear probing, cluster-then-label and zero-label clustering against a patch-resolution "
     "ceiling, using cross-validation, repeated label draws and Holm-corrected "
-    "paired tests. With 100 labelled images the linear probe reached 57.2% mIoU on DeepGlobe and "
+    "paired tests. With 100 labelled images the linear probe reached 57.2% mean "
+    "intersection-over-union (mIoU) on DeepGlobe and "
     "41.9% on LoveDA, about 90% of its full-pool accuracy (64.1% and 45.9%), whereas "
     "cluster-then-label saturated at 32–35%. On DeepGlobe, spreading labels as random points was "
     "far more efficient than annotating whole images: 100 points outperformed five annotated "
@@ -341,7 +341,7 @@ p("All experiments ran on a single laptop (NVIDIA GTX 1060 Max-Q, 6 GB; 16 GB RA
   "— 1418 fitted models and 2684 evaluation records — ran in 77 minutes. The fold-level tests are "
   "computed from the same result files without refitting. Random seeds, fold "
   "assignments, labelled-image orders and per-run confusion matrices are saved and released with "
-  "the code.")
+  "the code (Wellu and Mensah, 2026).")
 
 h1("5. Results")
 h2("5.1. Label efficiency (RQ1, RQ3)")
@@ -582,7 +582,7 @@ BACK = [
     ("CRediT authorship contribution statement",
      "Ziem Patrick Wellu: Conceptualization, Methodology, Software, Validation, Formal analysis, "
      "Investigation, Data curation, Visualization, Writing – original draft. Solomon Mensah: "
-     "Conceptualization, Supervision, Methodology, Writing – review & editing. "
+     "Conceptualization, Supervision, Methodology, Writing – review and editing. "
      "[AUTHORS TO CONFIRM ROLES BEFORE SUBMISSION]"),
     ("Declaration of competing interest",
      "The authors declare that they have no known competing financial interests or personal "
@@ -594,11 +594,14 @@ BACK = [
      "DeepGlobe Land Cover (Demir et al., 2018) and LoveDA (Wang et al., 2021) are publicly "
      "available from their providers. The code, fold assignments, labelled-image orders, random "
      "seeds and all per-run results and confusion matrices are openly available at "
-     "https://github.com/ZziemWellu/LabelBudgetLandCover."),
+     "https://github.com/ZziemWellu/LabelBudgetLandCover (Wellu and Mensah, 2026)."),
     ("Declaration of generative AI and AI-assisted technologies in the manuscript preparation process",
      "During the preparation of this work the authors used Claude (Anthropic) in order to assist "
      "with writing and debugging the experiment and analysis code and with drafting and editing "
-     "the manuscript text. After using this tool, the authors reviewed and edited the content as "
+     "the manuscript text. All figures and the graphical abstract are data visualizations and "
+     "schematics generated reproducibly by Python (matplotlib) scripts from the experimental "
+     "results and the public imagery; no generative AI tool was used to create or alter any image. "
+     "After using this tool, the authors reviewed and edited the content as "
      "needed and take full responsibility for the content of the published article."),
     ("Acknowledgements",
      "[Optional — e.g. thanks to the Department of Computer Science, University of Ghana.]"),
@@ -612,7 +615,7 @@ REFS = [
     "Bouthillier, X., Delaunay, P., Bronzi, M., Trofimov, A., Nichyporuk, B., Szeto, J., Mohammadi Sepahvand, N., Raff, E., Madan, K., Voleti, V., Kahou, S.E., Michalski, V., Arbel, T., Pal, C., Varoquaux, G., Vincent, P., 2021. Accounting for variance in machine learning benchmarks. Proceedings of Machine Learning and Systems 3, 747–769.",
     "Brown, C.F., Brumby, S.P., Guzder-Williams, B., Birch, T., Hyde, S.B., Mazzariello, J., Czerwinski, W., Pasquarella, V.J., Haertel, R., Ilyushchenko, S., Schwehr, K., Weisse, M., Stolle, F., Hanson, C., Guinan, O., Moore, R., Tait, A.M., 2022. Dynamic World, Near real-time global 10 m land use land cover mapping. Scientific Data 9, 251. https://doi.org/10.1038/s41597-022-01307-4",
     "Caron, M., Touvron, H., Misra, I., Jégou, H., Mairal, J., Bojanowski, P., Joulin, A., 2021. Emerging properties in self-supervised vision transformers, in: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9630–9640. https://doi.org/10.1109/ICCV48922.2021.00951",
-    "Chen, L.-C., Papandreou, G., Schroff, F., Adam, H., 2017. Rethinking atrous convolution for semantic image segmentation. arXiv preprint arXiv:1706.05587.",
+    "Chen, L.-C., Papandreou, G., Schroff, F., Adam, H., 2017. Rethinking atrous convolution for semantic image segmentation. arXiv preprint arXiv:1706.05587. https://doi.org/10.48550/arXiv.1706.05587",
     "Cho, J.H., Mall, U., Bala, K., Hariharan, B., 2021. PiCIE: Unsupervised semantic segmentation using invariance and equivariance in clustering, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 16789–16799. https://doi.org/10.1109/CVPR46437.2021.01652",
     "Cong, Y., Khanna, S., Meng, C., Liu, P., Rozi, E., He, Y., Burke, M., Lobell, D.B., Ermon, S., 2022. SatMAE: Pre-training transformers for temporal and multi-spectral satellite imagery. Advances in Neural Information Processing Systems 35, 197–211.",
     "Darcet, T., Oquab, M., Mairal, J., Bojanowski, P., 2024. Vision transformers need registers, in: International Conference on Learning Representations (ICLR).",
@@ -627,7 +630,7 @@ REFS = [
     "He, K., Zhang, X., Ren, S., Sun, J., 2016. Deep residual learning for image recognition, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770–778. https://doi.org/10.1109/CVPR.2016.90",
     "Holm, S., 1979. A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics 6, 65–70.",
     "Hua, Y., Marcos, D., Mou, L., Zhu, X.X., Tuia, D., 2022. Semantic segmentation of remote sensing images with sparse annotations. IEEE Geoscience and Remote Sensing Letters 19, 1–5. https://doi.org/10.1109/LGRS.2021.3051053",
-    "Jakubik, J., Roy, S., Phillips, C.E., Fraccaro, P., Godwin, D., Zadrozny, B., Szwarcman, D., Gomes, C., Nyirjesy, G., Edwards, B., et al., 2023. Foundation models for generalist geospatial artificial intelligence. arXiv preprint arXiv:2310.18660.",
+    "Jakubik, J., Roy, S., Phillips, C.E., Fraccaro, P., Godwin, D., Zadrozny, B., Szwarcman, D., Gomes, C., Nyirjesy, G., Edwards, B., et al., 2023. Foundation models for generalist geospatial artificial intelligence. arXiv preprint arXiv:2310.18660. https://doi.org/10.48550/arXiv.2310.18660",
     "Ji, X., Vedaldi, A., Henriques, J., 2019. Invariant information clustering for unsupervised image classification and segmentation, in: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9864–9873. https://doi.org/10.1109/ICCV.2019.00996",
     "Kolesnikov, A., Zhai, X., Beyer, L., 2019. Revisiting self-supervised visual representation learning, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 1920–1929. https://doi.org/10.1109/CVPR.2019.00202",
     "Kuhn, H.W., 1955. The Hungarian method for the assignment problem. Naval Research Logistics Quarterly 2, 83–97. https://doi.org/10.1002/nav.3800020109",
@@ -638,7 +641,8 @@ REFS = [
     "Loshchilov, I., Hutter, F., 2019. Decoupled weight decay regularization, in: International Conference on Learning Representations (ICLR).",
     "Ma, L., Liu, Y., Zhang, X., Ye, Y., Yin, G., Johnson, B.A., 2019. Deep learning in remote sensing applications: A meta-analysis and review. ISPRS Journal of Photogrammetry and Remote Sensing 152, 166–177. https://doi.org/10.1016/j.isprsjprs.2019.04.015",
     "Mañas, O., Lacoste, A., Giró-i-Nieto, X., Vazquez, D., Rodríguez, P., 2021. Seasonal Contrast: Unsupervised pre-training from uncurated remote sensing data, in: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9394–9403. https://doi.org/10.1109/ICCV48922.2021.00928",
-    "Neumann, M., Pinto, A.S., Zhai, X., Houlsby, N., 2019. In-domain representation learning for remote sensing. arXiv preprint arXiv:1911.06721.",
+    "Neumann, M., Pinto, A.S., Zhai, X., Houlsby, N., 2019. In-domain representation learning for remote sensing. arXiv preprint arXiv:1911.06721. https://doi.org/10.48550/arXiv.1911.06721",
+    "Wellu, Z.P., Mensah, S., 2026. LabelBudgetLandCover: code, data splits and per-run results for the label-budget land-cover study [software]. GitHub. https://github.com/ZziemWellu/LabelBudgetLandCover (accessed 9 November 2026).",
     "Oliver, A., Odena, A., Raffel, C.A., Cubuk, E.D., Goodfellow, I., 2018. Realistic evaluation of deep semi-supervised learning algorithms. Advances in Neural Information Processing Systems 31.",
     "Olofsson, P., Foody, G.M., Herold, M., Stehman, S.V., Woodcock, C.E., Wulder, M.A., 2014. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment 148, 42–57. https://doi.org/10.1016/j.rse.2014.02.015",
     "Oquab, M., Darcet, T., Moutakanni, T., Vo, H.V., Szafraniec, M., Khalidov, V., Fernandez, P., Haziza, D., Massa, F., El-Nouby, A., et al., 2024. DINOv2: Learning robust visual features without supervision. Transactions on Machine Learning Research.",
@@ -865,16 +869,28 @@ def set_cell_border(cell, **kw):
         b.append(el)
 
 
+SUB = re.compile(r"\b([dpwN])_(z|Holm|c)\b")   # d_z, p_Holm, w_c, N_c -> italic symbol + subscript
+
+
 def runs(par, text, size=None, bold=False):
+    def add(seg, italic=False, sub=False):
+        r = par.add_run(seg)
+        r.italic, r.bold, r.font.name = italic, bold, FONT
+        r.font.subscript = sub
+        if size:
+            r.font.size = Pt(size)
     for i, seg in enumerate(re.split(r"\*(.+?)\*", text)):
         if not seg:
             continue
-        r = par.add_run(seg)
-        r.italic = (i % 2 == 1)
-        r.bold = bold
-        r.font.name = FONT
-        if size:
-            r.font.size = Pt(size)
+        pos = 0
+        for m in SUB.finditer(seg):
+            if m.start() > pos:
+                add(seg[pos:m.start()], italic=(i % 2 == 1))
+            add(m.group(1), italic=True)
+            add(m.group(2), italic=False, sub=True)
+            pos = m.end()
+        if pos < len(seg):
+            add(seg[pos:], italic=(i % 2 == 1))
     return par
 
 

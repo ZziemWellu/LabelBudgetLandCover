@@ -46,6 +46,7 @@ too slow on the GPU and is not used in the paper.
 
    ```
    python manuscript/make_fig1.py
+   python manuscript/make_graphical_abstract.py
    python manuscript/build_manuscript.py
    ```
 
