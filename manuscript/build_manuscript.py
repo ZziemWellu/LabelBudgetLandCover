@@ -593,8 +593,8 @@ BACK = [
     ("Data availability",
      "DeepGlobe Land Cover (Demir et al., 2018) and LoveDA (Wang et al., 2021) are publicly "
      "available from their providers. The code, fold assignments, labelled-image orders, random "
-     "seeds and all per-run results and confusion matrices are available at [REPOSITORY URL — to "
-     "be added before submission]."),
+     "seeds and all per-run results and confusion matrices are openly available at "
+     "https://github.com/ZziemWellu/LabelBudgetLandCover."),
     ("Declaration of generative AI and AI-assisted technologies in the manuscript preparation process",
      "During the preparation of this work the authors used Claude (Anthropic) in order to assist "
      "with writing and debugging the experiment and analysis code and with drafting and editing "
