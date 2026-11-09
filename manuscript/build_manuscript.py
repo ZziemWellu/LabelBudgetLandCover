@@ -603,9 +603,11 @@ BACK = [
      "results and the public imagery; no generative AI tool was used to create or alter any image. "
      "After using this tool, the authors reviewed and edited the content as "
      "needed and take full responsibility for the content of the published article."),
-    ("Acknowledgements",
-     "[Optional — e.g. thanks to the Department of Computer Science, University of Ghana.]"),
 ]
+# Acknowledgements go before the generative-AI declaration, which the submission system requires
+# directly before the references.
+BACK.insert(len(BACK) - 1, ("Acknowledgements",
+            "[Optional — e.g. thanks to the Department of Computer Science, University of Ghana.]"))
 
 REFS = [
     "Amir, S., Gandelsman, Y., Bagon, S., Dekel, T., 2023. On the effectiveness of ViT features as local semantic descriptors, in: Computer Vision – ECCV 2022 Workshops, Lecture Notes in Computer Science, vol. 13804. Springer, Cham, pp. 39–55. https://doi.org/10.1007/978-3-031-25069-9_3",
