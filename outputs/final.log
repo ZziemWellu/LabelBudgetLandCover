@@ -1,0 +1,336 @@
+22:05:25 [DG-f0] pool=642 C=6
+22:07:18   seed 0: k-means K=[6, 50, 25, 100, 200] done
+22:07:24   seed 0 n=    1:    1368 patches, 3 classes
+22:07:28   seed 0 n=    2:    2737 patches, 5 classes
+22:07:38   seed 0 n=    5:    6835 patches, 6 classes
+22:07:42   seed 0 n=   10:   13669 patches, 6 classes
+22:07:47   seed 0 n=   25:   34194 patches, 6 classes
+22:08:01   seed 0 n=   50:   68341 patches, 6 classes
+22:08:11   seed 0 n=  100:  136633 patches, 6 classes
+22:08:32   seed 0 n=  250:  341495 patches, 6 classes
+22:09:01   seed 0 n=  642:  256198 patches, 6 classes
+22:09:18   seed 0: point budgets done
+22:09:37   seed 1: k-means K=[6, 50] done
+22:09:43   seed 1 n=    1:    1369 patches, 3 classes
+22:09:48   seed 1 n=    2:    2738 patches, 5 classes
+22:09:58   seed 1 n=    5:    6783 patches, 6 classes
+22:10:02   seed 1 n=   10:   13619 patches, 6 classes
+22:10:07   seed 1 n=   25:   34098 patches, 6 classes
+22:10:20   seed 1 n=   50:   68284 patches, 6 classes
+22:10:29   seed 1 n=  100:  136504 patches, 6 classes
+22:10:48   seed 1 n=  250:  341497 patches, 6 classes
+22:11:17   seed 1 n=  642:  256198 patches, 6 classes
+22:11:29   seed 1: point budgets done
+22:11:46   seed 2: k-means K=[6, 50] done
+22:11:52   seed 2 n=    1:    1356 patches, 3 classes
+22:11:57   seed 2 n=    2:    2711 patches, 5 classes
+22:12:07   seed 2 n=    5:    6802 patches, 5 classes
+22:12:11   seed 2 n=   10:   13608 patches, 6 classes
+22:12:16   seed 2 n=   25:   34114 patches, 6 classes
+22:12:30   seed 2 n=   50:   68292 patches, 6 classes
+22:12:39   seed 2 n=  100:  136602 patches, 6 classes
+22:12:58   seed 2 n=  250:  341524 patches, 6 classes
+22:13:28   seed 2 n=  642:  256198 patches, 6 classes
+22:13:40   seed 2: point budgets done
+22:13:40 [DG-f1] pool=642 C=6
+22:15:06   seed 0: k-means K=[6, 50, 25, 100, 200] done
+22:15:11   seed 0 n=    1:    1360 patches, 5 classes
+22:15:14   seed 0 n=    2:    2727 patches, 6 classes
+22:15:21   seed 0 n=    5:    6831 patches, 6 classes
+22:15:25   seed 0 n=   10:   13675 patches, 6 classes
+22:15:30   seed 0 n=   25:   34008 patches, 6 classes
+22:15:43   seed 0 n=   50:   68072 patches, 6 classes
+22:15:53   seed 0 n=  100:  136397 patches, 6 classes
+22:16:12   seed 0 n=  250:  341410 patches, 6 classes
+22:16:42   seed 0 n=  642:  256267 patches, 6 classes
+22:16:55   seed 0: point budgets done
+22:17:13   seed 1: k-means K=[6, 50] done
+22:17:18   seed 1 n=    1:    1367 patches, 3 classes
+22:17:23   seed 1 n=    2:    2734 patches, 4 classes
+22:17:33   seed 1 n=    5:    6839 patches, 5 classes
+22:17:37   seed 1 n=   10:   13676 patches, 6 classes
+22:17:42   seed 1 n=   25:   34170 patches, 6 classes
+22:17:55   seed 1 n=   50:   68157 patches, 6 classes
+22:18:04   seed 1 n=  100:  136499 patches, 6 classes
+22:18:22   seed 1 n=  250:  341410 patches, 6 classes
+22:18:52   seed 1 n=  642:  256267 patches, 6 classes
+22:19:06   seed 1: point budgets done
+22:19:23   seed 2: k-means K=[6, 50] done
+22:19:28   seed 2 n=    1:    1369 patches, 2 classes
+22:19:33   seed 2 n=    2:    2724 patches, 5 classes
+22:19:45   seed 2 n=    5:    6826 patches, 5 classes
+22:19:49   seed 2 n=   10:   13662 patches, 6 classes
+22:19:53   seed 2 n=   25:   34149 patches, 6 classes
+22:20:06   seed 2 n=   50:   68176 patches, 6 classes
+22:20:16   seed 2 n=  100:  136399 patches, 6 classes
+22:20:34   seed 2 n=  250:  341378 patches, 6 classes
+22:21:04   seed 2 n=  642:  256267 patches, 6 classes
+22:21:17   seed 2: point budgets done
+22:21:17 [DG-f2] pool=642 C=6
+22:22:44   seed 0: k-means K=[6, 50, 25, 100, 200] done
+22:22:49   seed 0 n=    1:    1360 patches, 5 classes
+22:22:54   seed 0 n=    2:    2728 patches, 5 classes
+22:23:04   seed 0 n=    5:    6833 patches, 6 classes
+22:23:08   seed 0 n=   10:   13669 patches, 6 classes
+22:23:13   seed 0 n=   25:   34177 patches, 6 classes
+22:23:26   seed 0 n=   50:   68354 patches, 6 classes
+22:23:35   seed 0 n=  100:  136682 patches, 6 classes
+22:23:55   seed 0 n=  250:  341559 patches, 6 classes
+22:24:24   seed 0 n=  642:  256202 patches, 6 classes
+22:24:42   seed 0: point budgets done
+22:24:58   seed 1: k-means K=[6, 50] done
+22:25:01   seed 1 n=    1:    1369 patches, 2 classes
+22:25:05   seed 1 n=    2:    2738 patches, 4 classes
+22:25:12   seed 1 n=    5:    6844 patches, 5 classes
+22:25:17   seed 1 n=   10:   13687 patches, 6 classes
+22:25:21   seed 1 n=   25:   34187 patches, 6 classes
+22:25:35   seed 1 n=   50:   68358 patches, 6 classes
+22:25:44   seed 1 n=  100:  136646 patches, 6 classes
+22:26:02   seed 1 n=  250:  341525 patches, 6 classes
+22:26:32   seed 1 n=  642:  256202 patches, 6 classes
+22:26:42   seed 1: point budgets done
+22:26:59   seed 2: k-means K=[6, 50] done
+22:27:05   seed 2 n=    1:    1369 patches, 4 classes
+22:27:10   seed 2 n=    2:    2729 patches, 4 classes
+22:27:23   seed 2 n=    5:    6829 patches, 5 classes
+22:27:27   seed 2 n=   10:   13667 patches, 5 classes
+22:27:31   seed 2 n=   25:   34154 patches, 6 classes
+22:27:44   seed 2 n=   50:   68192 patches, 6 classes
+22:27:53   seed 2 n=  100:  136421 patches, 6 classes
+22:28:11   seed 2 n=  250:  341344 patches, 6 classes
+22:28:40   seed 2 n=  642:  256202 patches, 6 classes
+22:29:02   seed 2: point budgets done
+22:29:02 [DG-f3] pool=643 C=6
+22:30:29   seed 0: k-means K=[6, 50, 25, 100, 200] done
+22:30:34   seed 0 n=    1:    1359 patches, 5 classes
+22:30:37   seed 0 n=    2:    2727 patches, 6 classes
+22:30:48   seed 0 n=    5:    6832 patches, 6 classes
+22:30:52   seed 0 n=   10:   13651 patches, 6 classes
+22:30:57   seed 0 n=   25:   34167 patches, 6 classes
+22:31:10   seed 0 n=   50:   68296 patches, 6 classes
+22:31:20   seed 0 n=  100:  136654 patches, 6 classes
+22:31:39   seed 0 n=  250:  341623 patches, 6 classes
+22:32:10   seed 0 n=  643:  256670 patches, 6 classes
+22:32:22   seed 0: point budgets done
+22:32:38   seed 1: k-means K=[6, 50] done
+22:32:44   seed 1 n=    1:    1367 patches, 3 classes
+22:32:48   seed 1 n=    2:    2736 patches, 4 classes
+22:32:59   seed 1 n=    5:    6817 patches, 5 classes
+22:33:02   seed 1 n=   10:   13655 patches, 5 classes
+22:33:07   seed 1 n=   25:   34145 patches, 6 classes
+22:33:20   seed 1 n=   50:   68326 patches, 6 classes
+22:33:29   seed 1 n=  100:  136541 patches, 6 classes
+22:33:48   seed 1 n=  250:  341336 patches, 6 classes
+22:34:19   seed 1 n=  643:  256670 patches, 6 classes
+22:34:33   seed 1: point budgets done
+22:34:53   seed 2: k-means K=[6, 50] done
+22:34:57   seed 2 n=    1:    1368 patches, 4 classes
+22:35:02   seed 2 n=    2:    2737 patches, 5 classes
+22:35:11   seed 2 n=    5:    6839 patches, 6 classes
+22:35:15   seed 2 n=   10:   13665 patches, 6 classes
+22:35:20   seed 2 n=   25:   34130 patches, 6 classes
+22:35:33   seed 2 n=   50:   68266 patches, 6 classes
+22:35:42   seed 2 n=  100:  136498 patches, 6 classes
+22:36:01   seed 2 n=  250:  341404 patches, 6 classes
+22:36:32   seed 2 n=  643:  256670 patches, 6 classes
+22:36:54   seed 2: point budgets done
+22:36:54 [DG-f4] pool=643 C=6
+22:38:27   seed 0: k-means K=[6, 50, 25, 100, 200] done
+22:38:33   seed 0 n=    1:    1369 patches, 5 classes
+22:38:38   seed 0 n=    2:    2733 patches, 5 classes
+22:38:47   seed 0 n=    5:    6832 patches, 6 classes
+22:38:51   seed 0 n=   10:   13657 patches, 6 classes
+22:38:56   seed 0 n=   25:   34162 patches, 6 classes
+22:39:09   seed 0 n=   50:   68327 patches, 6 classes
+22:39:18   seed 0 n=  100:  136681 patches, 6 classes
+22:39:37   seed 0 n=  250:  341487 patches, 6 classes
+22:40:07   seed 0 n=  643:  256595 patches, 6 classes
+22:40:20   seed 0: point budgets done
+22:40:36   seed 1: k-means K=[6, 50] done
+22:40:39   seed 1 n=    1:    1369 patches, 2 classes
+22:40:43   seed 1 n=    2:    2736 patches, 4 classes
+22:40:52   seed 1 n=    5:    6824 patches, 6 classes
+22:40:56   seed 1 n=   10:   13647 patches, 6 classes
+22:41:00   seed 1 n=   25:   34170 patches, 6 classes
+22:41:14   seed 1 n=   50:   68300 patches, 6 classes
+22:41:23   seed 1 n=  100:  136594 patches, 6 classes
+22:41:41   seed 1 n=  250:  341545 patches, 6 classes
+22:42:12   seed 1 n=  643:  256595 patches, 6 classes
+22:42:33   seed 1: point budgets done
+22:42:50   seed 2: k-means K=[6, 50] done
+22:42:55   seed 2 n=    1:    1363 patches, 4 classes
+22:43:00   seed 2 n=    2:    2732 patches, 5 classes
+22:43:09   seed 2 n=    5:    6830 patches, 6 classes
+22:43:13   seed 2 n=   10:   13671 patches, 6 classes
+22:43:17   seed 2 n=   25:   34071 patches, 6 classes
+22:43:30   seed 2 n=   50:   68248 patches, 6 classes
+22:43:40   seed 2 n=  100:  136546 patches, 6 classes
+22:43:58   seed 2 n=  250:  341451 patches, 6 classes
+22:44:28   seed 2 n=  643:  256595 patches, 6 classes
+22:44:46   seed 2: point budgets done
+22:44:47 [LD-all] pool=2522 C=7
+22:46:28   seed 0: k-means K=[7, 50, 25, 100, 200] done
+22:46:33   seed 0 n=    1:    1364 patches, 5 classes
+22:46:36   seed 0 n=    2:    2312 patches, 6 classes
+22:46:43   seed 0 n=    5:    6372 patches, 7 classes
+22:46:48   seed 0 n=   10:   13145 patches, 7 classes
+22:46:53   seed 0 n=   25:   32123 patches, 7 classes
+22:47:06   seed 0 n=   50:   64522 patches, 7 classes
+22:47:15   seed 0 n=  100:  128340 patches, 7 classes
+22:47:34   seed 0 n=  250:  324024 patches, 7 classes
+22:48:32   seed 0 n= 2522:  477180 patches, 7 classes
+22:48:50   seed 0: point budgets done
+22:50:33   seed 1: k-means K=[7, 50, 25, 100, 200] done
+22:50:39   seed 1 n=    1:    1364 patches, 5 classes
+22:50:43   seed 1 n=    2:    2641 patches, 6 classes
+22:50:55   seed 1 n=    5:    6688 patches, 7 classes
+22:50:59   seed 1 n=   10:   12949 patches, 7 classes
+22:51:04   seed 1 n=   25:   32884 patches, 7 classes
+22:51:17   seed 1 n=   50:   65092 patches, 7 classes
+22:51:27   seed 1 n=  100:  129843 patches, 7 classes
+22:51:47   seed 1 n=  250:  329377 patches, 7 classes
+22:52:37   seed 1 n= 2522:  477264 patches, 7 classes
+22:52:55   seed 1: point budgets done
+22:54:28   seed 2: k-means K=[7, 50, 25, 100, 200] done
+22:54:31   seed 2 n=    1:    1369 patches, 2 classes
+22:54:36   seed 2 n=    2:    2709 patches, 7 classes
+22:54:46   seed 2 n=    5:    6255 patches, 7 classes
+22:54:50   seed 2 n=   10:   12427 patches, 7 classes
+22:54:55   seed 2 n=   25:   32384 patches, 7 classes
+22:55:08   seed 2 n=   50:   65257 patches, 7 classes
+22:55:17   seed 2 n=  100:  128358 patches, 7 classes
+22:55:36   seed 2 n=  250:  322176 patches, 7 classes
+22:56:28   seed 2 n= 2522:  477100 patches, 7 classes
+22:56:45   seed 2: point budgets done
+22:58:16   seed 3: k-means K=[7, 50, 25, 100, 200] done
+22:58:21   seed 3 n=    1:    1365 patches, 5 classes
+22:58:26   seed 3 n=    2:    2726 patches, 5 classes
+22:58:37   seed 3 n=    5:    6479 patches, 7 classes
+22:58:41   seed 3 n=   10:   12469 patches, 7 classes
+22:58:46   seed 3 n=   25:   32629 patches, 7 classes
+22:58:59   seed 3 n=   50:   65206 patches, 7 classes
+22:59:08   seed 3 n=  100:  132168 patches, 7 classes
+22:59:26   seed 3 n=  250:  325048 patches, 7 classes
+23:00:14   seed 3 n= 2522:  477059 patches, 7 classes
+23:00:30   seed 3: point budgets done
+23:02:04   seed 4: k-means K=[7, 50, 25, 100, 200] done
+23:02:09   seed 4 n=    1:    1369 patches, 3 classes
+23:02:14   seed 4 n=    2:    2681 patches, 6 classes
+23:02:25   seed 4 n=    5:    6649 patches, 7 classes
+23:02:29   seed 4 n=   10:   13425 patches, 7 classes
+23:02:33   seed 4 n=   25:   33517 patches, 7 classes
+23:02:47   seed 4 n=   50:   67077 patches, 7 classes
+23:02:57   seed 4 n=  100:  131980 patches, 7 classes
+23:03:17   seed 4 n=  250:  329757 patches, 7 classes
+23:04:05   seed 4 n= 2522:  477039 patches, 7 classes
+23:04:23   seed 4: point budgets done
+23:04:23 [LD-rural] pool=1366 C=7
+23:04:41   seed 0: k-means K=[7, 50] done
+23:04:47   seed 0 n=    1:    1365 patches, 5 classes
+23:04:52   seed 0 n=    2:    2734 patches, 6 classes
+23:04:57   seed 0 n=    5:    6348 patches, 7 classes
+23:05:02   seed 0 n=   10:   13143 patches, 7 classes
+23:05:07   seed 0 n=   25:   33445 patches, 7 classes
+23:05:13   seed 0 n=   50:   66142 patches, 7 classes
+23:05:23   seed 0 n=  100:  132633 patches, 7 classes
+23:05:43   seed 0 n=  250:  328782 patches, 7 classes
+23:06:09   seed 0 n= 1366:  481697 patches, 7 classes
+23:06:26   seed 1: k-means K=[7, 50] done
+23:06:30   seed 1 n=    1:    1365 patches, 6 classes
+23:06:35   seed 1 n=    2:    2728 patches, 6 classes
+23:06:40   seed 1 n=    5:    6810 patches, 7 classes
+23:06:44   seed 1 n=   10:   13606 patches, 7 classes
+23:06:49   seed 1 n=   25:   33777 patches, 7 classes
+23:06:55   seed 1 n=   50:   67527 patches, 7 classes
+23:07:05   seed 1 n=  100:  133906 patches, 7 classes
+23:07:25   seed 1 n=  250:  330786 patches, 7 classes
+23:07:52   seed 1 n= 1366:  481733 patches, 7 classes
+23:08:11   seed 2: k-means K=[7, 50] done
+23:08:17   seed 2 n=    1:    1359 patches, 5 classes
+23:08:22   seed 2 n=    2:    2706 patches, 6 classes
+23:08:27   seed 2 n=    5:    6787 patches, 7 classes
+23:08:31   seed 2 n=   10:   13438 patches, 7 classes
+23:08:35   seed 2 n=   25:   33710 patches, 7 classes
+23:08:42   seed 2 n=   50:   67025 patches, 7 classes
+23:08:51   seed 2 n=  100:  133452 patches, 7 classes
+23:09:11   seed 2 n=  250:  331980 patches, 7 classes
+23:09:36   seed 2 n= 1366:  481690 patches, 7 classes
+23:09:55   seed 3: k-means K=[7, 50] done
+23:10:00   seed 3 n=    1:    1367 patches, 5 classes
+23:10:04   seed 3 n=    2:    2715 patches, 5 classes
+23:10:09   seed 3 n=    5:    6192 patches, 7 classes
+23:10:14   seed 3 n=   10:   12961 patches, 7 classes
+23:10:19   seed 3 n=   25:   32219 patches, 7 classes
+23:10:25   seed 3 n=   50:   65644 patches, 7 classes
+23:10:35   seed 3 n=  100:  131426 patches, 7 classes
+23:10:54   seed 3 n=  250:  328202 patches, 7 classes
+23:11:20   seed 3 n= 1366:  481686 patches, 7 classes
+23:11:37   seed 4: k-means K=[7, 50] done
+23:11:42   seed 4 n=    1:     846 patches, 3 classes
+23:11:47   seed 4 n=    2:    1532 patches, 5 classes
+23:11:52   seed 4 n=    5:    5630 patches, 7 classes
+23:11:56   seed 4 n=   10:   12069 patches, 7 classes
+23:12:01   seed 4 n=   25:   32080 patches, 7 classes
+23:12:07   seed 4 n=   50:   64660 patches, 7 classes
+23:12:17   seed 4 n=  100:  130839 patches, 7 classes
+23:12:37   seed 4 n=  250:  329730 patches, 7 classes
+23:13:03   seed 4 n= 1366:  481686 patches, 7 classes
+23:13:03 [LD-urban] pool=1156 C=7
+23:13:24   seed 0: k-means K=[7, 50] done
+23:13:30   seed 0 n=    1:     711 patches, 6 classes
+23:13:35   seed 0 n=    2:    1659 patches, 6 classes
+23:13:41   seed 0 n=    5:    5756 patches, 7 classes
+23:13:47   seed 0 n=   10:   12005 patches, 7 classes
+23:13:52   seed 0 n=   25:   31970 patches, 7 classes
+23:14:03   seed 0 n=   50:   63330 patches, 7 classes
+23:14:14   seed 0 n=  100:  126587 patches, 7 classes
+23:14:35   seed 0 n=  250:  324986 patches, 7 classes
+23:14:59   seed 0 n= 1156:  437570 patches, 7 classes
+23:15:21   seed 1: k-means K=[7, 50] done
+23:15:29   seed 1 n=    1:     948 patches, 4 classes
+23:15:34   seed 1 n=    2:    2315 patches, 5 classes
+23:15:39   seed 1 n=    5:    6409 patches, 6 classes
+23:15:43   seed 1 n=   10:   12496 patches, 6 classes
+23:15:48   seed 1 n=   25:   31789 patches, 7 classes
+23:15:54   seed 1 n=   50:   65836 patches, 7 classes
+23:16:04   seed 1 n=  100:  129820 patches, 7 classes
+23:16:22   seed 1 n=  250:  325478 patches, 7 classes
+23:16:44   seed 1 n= 1156:  437570 patches, 7 classes
+23:17:02   seed 2: k-means K=[7, 50] done
+23:17:07   seed 2 n=    1:    1363 patches, 3 classes
+23:17:13   seed 2 n=    2:    2732 patches, 5 classes
+23:17:18   seed 2 n=    5:    6582 patches, 6 classes
+23:17:23   seed 2 n=   10:   12848 patches, 6 classes
+23:17:27   seed 2 n=   25:   33058 patches, 7 classes
+23:17:34   seed 2 n=   50:   66097 patches, 7 classes
+23:17:43   seed 2 n=  100:  129980 patches, 7 classes
+23:18:01   seed 2 n=  250:  324974 patches, 7 classes
+23:18:23   seed 2 n= 1156:  437570 patches, 7 classes
+23:18:41   seed 3: k-means K=[7, 50] done
+23:18:47   seed 3 n=    1:    1363 patches, 4 classes
+23:18:53   seed 3 n=    2:    2284 patches, 5 classes
+23:18:57   seed 3 n=    5:    6384 patches, 7 classes
+23:19:01   seed 3 n=   10:   13205 patches, 7 classes
+23:19:06   seed 3 n=   25:   33210 patches, 7 classes
+23:19:12   seed 3 n=   50:   65310 patches, 7 classes
+23:19:21   seed 3 n=  100:  131877 patches, 7 classes
+23:19:39   seed 3 n=  250:  325230 patches, 7 classes
+23:20:01   seed 3 n= 1156:  437570 patches, 7 classes
+23:20:22   seed 4: k-means K=[7, 50] done
+23:20:27   seed 4 n=    1:    1357 patches, 4 classes
+23:20:32   seed 4 n=    2:    2722 patches, 5 classes
+23:20:37   seed 4 n=    5:    6784 patches, 6 classes
+23:20:41   seed 4 n=   10:   13612 patches, 7 classes
+23:20:46   seed 4 n=   25:   33379 patches, 7 classes
+23:20:53   seed 4 n=   50:   65349 patches, 7 classes
+23:21:02   seed 4 n=  100:  127881 patches, 7 classes
+23:21:19   seed 4 n=  250:  322513 patches, 7 classes
+23:21:41   seed 4 n= 1156:  437570 patches, 7 classes
+23:21:41 Phase A done: 1418 models
+23:21:43   scored ['DG-f0']
+23:21:46   scored ['DG-f1']
+23:21:49   scored ['DG-f2']
+23:21:52   scored ['DG-f3']
+23:21:54   scored ['DG-f4']
+23:22:17   scored ['LD-all', 'LD-rural', 'LD-urban']
+23:22:18 wrote 2684 rows to final.jsonl

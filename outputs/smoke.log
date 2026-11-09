@@ -1,0 +1,26 @@
+21:56:25 [DG-f0] pool=642 C=6
+21:57:14   seed 0: k-means K=[6, 50, 25] done
+21:57:21   seed 0 n=    1:    1368 patches, 3 classes
+21:57:31   seed 0 n=    5:    6835 patches, 6 classes
+21:58:00   seed 0 n=  642:  256198 patches, 6 classes
+21:58:05   seed 0: point budgets done
+22:00:03 [LD-all] pool=2522 C=7
+22:00:44   seed 0: k-means K=[7, 50, 25] done
+22:00:52   seed 0 n=    1:    1364 patches, 5 classes
+22:01:04   seed 0 n=    5:    6372 patches, 7 classes
+22:02:06   seed 0 n= 2522:  477180 patches, 7 classes
+22:02:11   seed 0: point budgets done
+22:02:11 [LD-rural] pool=1366 C=7
+22:02:35   seed 0: k-means K=[7, 50] done
+22:02:43   seed 0 n=    1:    1365 patches, 5 classes
+22:02:49   seed 0 n=    5:    6348 patches, 7 classes
+22:03:15   seed 0 n= 1366:  481697 patches, 7 classes
+22:03:15 [LD-urban] pool=1156 C=7
+22:03:39   seed 0: k-means K=[7, 50] done
+22:03:50   seed 0 n=    1:     711 patches, 6 classes
+22:03:57   seed 0 n=    5:    5756 patches, 7 classes
+22:04:19   seed 0 n= 1156:  437570 patches, 7 classes
+22:04:19 Phase A done: 66 models
+22:04:22   scored ['DG-f0']
+22:04:43   scored ['LD-all', 'LD-rural', 'LD-urban']
+22:04:43 wrote 154 rows to smoke.jsonl

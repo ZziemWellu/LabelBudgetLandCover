@@ -1,0 +1,209 @@
+21:07:32 [DG] pool=642 images, C=6
+21:08:00   seed 0: k-means done (28s)
+21:08:04   seed 0 n=    1:    1369 labelled patches, classes=5, fit 4.1s
+21:08:06   seed 0 n=    2:    2733 labelled patches, classes=5, fit 1.7s
+21:08:08   seed 0 n=    5:    6839 labelled patches, classes=6, fit 1.9s
+21:08:10   seed 0 n=   10:   13657 labelled patches, classes=6, fit 2.2s
+21:08:13   seed 0 n=   25:   34161 labelled patches, classes=6, fit 2.6s
+21:08:17   seed 0 n=   50:   68349 labelled patches, classes=6, fit 3.5s
+21:08:22   seed 0 n=  100:  136582 labelled patches, classes=6, fit 4.8s
+21:08:34   seed 0 n=  250:  341419 labelled patches, classes=6, fit 9.1s
+21:08:39   seed 0 n=  642:  163958 labelled patches, classes=6, fit 5.3s
+21:08:56   seed 1: k-means done (17s)
+21:08:58   seed 1 n=    1:    1369 labelled patches, classes=2, fit 2.5s
+21:09:02   seed 1 n=    2:    2738 labelled patches, classes=2, fit 3.1s
+21:09:04   seed 1 n=    5:    6826 labelled patches, classes=6, fit 2.0s
+21:09:06   seed 1 n=   10:   13658 labelled patches, classes=6, fit 2.5s
+21:09:09   seed 1 n=   25:   34162 labelled patches, classes=6, fit 3.1s
+21:09:13   seed 1 n=   50:   68316 labelled patches, classes=6, fit 3.4s
+21:09:19   seed 1 n=  100:  136628 labelled patches, classes=6, fit 5.2s
+21:09:30   seed 1 n=  250:  341586 labelled patches, classes=6, fit 9.5s
+21:09:36   seed 1 n=  642:  163958 labelled patches, classes=6, fit 5.6s
+21:09:56   seed 2: k-means done (20s)
+21:10:01   seed 2 n=    1:    1356 labelled patches, classes=3, fit 4.4s
+21:10:04   seed 2 n=    2:    2725 labelled patches, classes=3, fit 3.4s
+21:10:06   seed 2 n=    5:    6828 labelled patches, classes=5, fit 2.2s
+21:10:08   seed 2 n=   10:   13619 labelled patches, classes=6, fit 2.3s
+21:10:11   seed 2 n=   25:   34132 labelled patches, classes=6, fit 2.9s
+21:10:15   seed 2 n=   50:   68232 labelled patches, classes=6, fit 3.6s
+21:10:20   seed 2 n=  100:  136556 labelled patches, classes=6, fit 4.9s
+21:10:30   seed 2 n=  250:  341461 labelled patches, classes=6, fit 9.0s
+21:10:36   seed 2 n=  642:  163958 labelled patches, classes=6, fit 5.3s
+21:10:52   seed 3: k-means done (16s)
+21:10:57   seed 3 n=    1:    1363 labelled patches, classes=4, fit 4.2s
+21:11:00   seed 3 n=    2:    2731 labelled patches, classes=4, fit 3.3s
+21:11:02   seed 3 n=    5:    6833 labelled patches, classes=6, fit 2.1s
+21:11:04   seed 3 n=   10:   13633 labelled patches, classes=6, fit 2.2s
+21:11:07   seed 3 n=   25:   34143 labelled patches, classes=6, fit 2.7s
+21:11:11   seed 3 n=   50:   68284 labelled patches, classes=6, fit 3.5s
+21:11:16   seed 3 n=  100:  136352 labelled patches, classes=6, fit 4.7s
+21:11:25   seed 3 n=  250:  341239 labelled patches, classes=6, fit 9.1s
+21:11:31   seed 3 n=  642:  163958 labelled patches, classes=6, fit 5.2s
+21:11:45   seed 4: k-means done (14s)
+21:11:48   seed 4 n=    1:    1369 labelled patches, classes=2, fit 3.0s
+21:11:51   seed 4 n=    2:    2736 labelled patches, classes=4, fit 2.8s
+21:11:54   seed 4 n=    5:    6836 labelled patches, classes=6, fit 2.9s
+21:11:56   seed 4 n=   10:   13656 labelled patches, classes=6, fit 2.2s
+21:11:59   seed 4 n=   25:   34124 labelled patches, classes=6, fit 2.5s
+21:12:02   seed 4 n=   50:   68281 labelled patches, classes=6, fit 3.4s
+21:12:07   seed 4 n=  100:  136618 labelled patches, classes=6, fit 4.8s
+21:12:17   seed 4 n=  250:  341480 labelled patches, classes=6, fit 8.9s
+21:12:22   seed 4 n=  642:  163958 labelled patches, classes=6, fit 5.3s
+21:13:09 [LD-all] pool=2522 images, C=7
+21:13:29   seed 0: k-means done (19s)
+21:13:33   seed 0 n=    1:    1364 labelled patches, classes=5, fit 3.8s
+21:13:36   seed 0 n=    2:    2312 labelled patches, classes=6, fit 2.9s
+21:13:39   seed 0 n=    5:    6372 labelled patches, classes=7, fit 3.3s
+21:13:42   seed 0 n=   10:   13145 labelled patches, classes=7, fit 2.2s
+21:13:45   seed 0 n=   25:   32123 labelled patches, classes=7, fit 2.7s
+21:13:48   seed 0 n=   50:   64522 labelled patches, classes=7, fit 3.3s
+21:13:53   seed 0 n=  100:  128340 labelled patches, classes=7, fit 4.5s
+21:14:04   seed 0 n=  250:  324024 labelled patches, classes=7, fit 8.7s
+21:14:19   seed 0 n= 2522:  477779 labelled patches, classes=7, fit 12.9s
+21:14:39   seed 1: k-means done (19s)
+21:14:43   seed 1 n=    1:    1364 labelled patches, classes=5, fit 4.3s
+21:14:46   seed 1 n=    2:    2641 labelled patches, classes=6, fit 2.9s
+21:14:49   seed 1 n=    5:    6688 labelled patches, classes=7, fit 2.9s
+21:14:51   seed 1 n=   10:   12949 labelled patches, classes=7, fit 2.1s
+21:14:54   seed 1 n=   25:   32884 labelled patches, classes=7, fit 2.8s
+21:14:58   seed 1 n=   50:   65092 labelled patches, classes=7, fit 3.2s
+21:15:03   seed 1 n=  100:  129843 labelled patches, classes=7, fit 4.8s
+21:15:14   seed 1 n=  250:  329377 labelled patches, classes=7, fit 9.1s
+21:15:28   seed 1 n= 2522:  477708 labelled patches, classes=7, fit 11.8s
+21:15:48   seed 2: k-means done (19s)
+21:15:50   seed 2 n=    1:    1369 labelled patches, classes=2, fit 2.0s
+21:15:54   seed 2 n=    2:    2709 labelled patches, classes=7, fit 3.2s
+21:15:56   seed 2 n=    5:    6255 labelled patches, classes=7, fit 2.0s
+21:15:58   seed 2 n=   10:   12427 labelled patches, classes=7, fit 2.0s
+21:16:01   seed 2 n=   25:   32384 labelled patches, classes=7, fit 2.7s
+21:16:04   seed 2 n=   50:   65257 labelled patches, classes=7, fit 3.3s
+21:16:09   seed 2 n=  100:  128358 labelled patches, classes=7, fit 4.5s
+21:16:19   seed 2 n=  250:  322176 labelled patches, classes=7, fit 8.8s
+21:16:32   seed 2 n= 2522:  477561 labelled patches, classes=7, fit 11.7s
+21:16:52   seed 3: k-means done (19s)
+21:16:56   seed 3 n=    1:    1365 labelled patches, classes=5, fit 3.9s
+21:16:58   seed 3 n=    2:    2726 labelled patches, classes=5, fit 2.9s
+21:17:02   seed 3 n=    5:    6479 labelled patches, classes=7, fit 3.4s
+21:17:04   seed 3 n=   10:   12469 labelled patches, classes=7, fit 2.0s
+21:17:07   seed 3 n=   25:   32629 labelled patches, classes=7, fit 2.6s
+21:17:10   seed 3 n=   50:   65206 labelled patches, classes=7, fit 3.2s
+21:17:15   seed 3 n=  100:  132168 labelled patches, classes=7, fit 4.7s
+21:17:25   seed 3 n=  250:  325048 labelled patches, classes=7, fit 8.3s
+21:17:37   seed 3 n= 2522:  477722 labelled patches, classes=7, fit 10.8s
+21:17:56   seed 4: k-means done (18s)
+21:17:59   seed 4 n=    1:    1369 labelled patches, classes=3, fit 3.5s
+21:18:02   seed 4 n=    2:    2681 labelled patches, classes=6, fit 2.8s
+21:18:05   seed 4 n=    5:    6649 labelled patches, classes=7, fit 3.0s
+21:18:07   seed 4 n=   10:   13425 labelled patches, classes=7, fit 2.2s
+21:18:10   seed 4 n=   25:   33517 labelled patches, classes=7, fit 2.6s
+21:18:14   seed 4 n=   50:   67077 labelled patches, classes=7, fit 3.3s
+21:18:19   seed 4 n=  100:  131980 labelled patches, classes=7, fit 4.7s
+21:18:29   seed 4 n=  250:  329757 labelled patches, classes=7, fit 8.9s
+21:18:42   seed 4 n= 2522:  477598 labelled patches, classes=7, fit 11.7s
+21:18:46 [LD-rural] pool=1366 images, C=7
+21:19:03   seed 0: k-means done (17s)
+21:19:07   seed 0 n=    1:    1365 labelled patches, classes=5, fit 4.1s
+21:19:10   seed 0 n=    2:    2734 labelled patches, classes=6, fit 2.8s
+21:19:13   seed 0 n=    5:    6348 labelled patches, classes=7, fit 3.3s
+21:19:16   seed 0 n=   10:   13143 labelled patches, classes=7, fit 2.5s
+21:19:19   seed 0 n=   25:   33445 labelled patches, classes=7, fit 2.8s
+21:19:23   seed 0 n=   50:   66142 labelled patches, classes=7, fit 3.3s
+21:19:28   seed 0 n=  100:  132633 labelled patches, classes=7, fit 4.6s
+21:19:38   seed 0 n=  250:  328782 labelled patches, classes=7, fit 9.0s
+21:19:48   seed 0 n= 1366:  336796 labelled patches, classes=7, fit 9.1s
+21:20:06   seed 1: k-means done (18s)
+21:20:10   seed 1 n=    1:    1365 labelled patches, classes=6, fit 3.6s
+21:20:12   seed 1 n=    2:    2728 labelled patches, classes=6, fit 2.7s
+21:20:16   seed 1 n=    5:    6810 labelled patches, classes=7, fit 3.1s
+21:20:18   seed 1 n=   10:   13606 labelled patches, classes=7, fit 2.2s
+21:20:20   seed 1 n=   25:   33777 labelled patches, classes=7, fit 2.5s
+21:20:24   seed 1 n=   50:   67527 labelled patches, classes=7, fit 3.3s
+21:20:29   seed 1 n=  100:  133906 labelled patches, classes=7, fit 4.6s
+21:20:40   seed 1 n=  250:  330786 labelled patches, classes=7, fit 8.9s
+21:20:49   seed 1 n= 1366:  336796 labelled patches, classes=7, fit 9.1s
+21:21:08   seed 2: k-means done (18s)
+21:21:11   seed 2 n=    1:    1359 labelled patches, classes=5, fit 3.1s
+21:21:13   seed 2 n=    2:    2706 labelled patches, classes=6, fit 1.6s
+21:21:15   seed 2 n=    5:    6787 labelled patches, classes=7, fit 1.9s
+21:21:18   seed 2 n=   10:   13438 labelled patches, classes=7, fit 2.7s
+21:21:21   seed 2 n=   25:   33710 labelled patches, classes=7, fit 2.8s
+21:21:24   seed 2 n=   50:   67025 labelled patches, classes=7, fit 3.5s
+21:21:30   seed 2 n=  100:  133452 labelled patches, classes=7, fit 4.8s
+21:21:42   seed 2 n=  250:  331980 labelled patches, classes=7, fit 9.3s
+21:21:52   seed 2 n= 1366:  336796 labelled patches, classes=7, fit 9.5s
+21:22:11   seed 3: k-means done (19s)
+21:22:17   seed 3 n=    1:    1367 labelled patches, classes=5, fit 5.2s
+21:22:20   seed 3 n=    2:    2715 labelled patches, classes=5, fit 3.5s
+21:22:24   seed 3 n=    5:    6192 labelled patches, classes=7, fit 3.7s
+21:22:26   seed 3 n=   10:   12961 labelled patches, classes=7, fit 2.3s
+21:22:30   seed 3 n=   25:   32219 labelled patches, classes=7, fit 3.1s
+21:22:33   seed 3 n=   50:   65644 labelled patches, classes=7, fit 3.4s
+21:22:39   seed 3 n=  100:  131426 labelled patches, classes=7, fit 5.3s
+21:22:49   seed 3 n=  250:  328202 labelled patches, classes=7, fit 8.9s
+21:22:59   seed 3 n= 1366:  336796 labelled patches, classes=7, fit 8.9s
+21:23:21   seed 4: k-means done (22s)
+21:23:27   seed 4 n=    1:     846 labelled patches, classes=3, fit 5.1s
+21:23:30   seed 4 n=    2:    1532 labelled patches, classes=5, fit 3.0s
+21:23:33   seed 4 n=    5:    5630 labelled patches, classes=7, fit 3.7s
+21:23:38   seed 4 n=   10:   12069 labelled patches, classes=7, fit 4.3s
+21:23:41   seed 4 n=   25:   32080 labelled patches, classes=7, fit 3.5s
+21:23:45   seed 4 n=   50:   64660 labelled patches, classes=7, fit 3.4s
+21:23:50   seed 4 n=  100:  130839 labelled patches, classes=7, fit 5.0s
+21:24:01   seed 4 n=  250:  329730 labelled patches, classes=7, fit 9.6s
+21:24:11   seed 4 n= 1366:  336796 labelled patches, classes=7, fit 9.2s
+21:24:15 [LD-urban] pool=1156 images, C=7
+21:24:39   seed 0: k-means done (24s)
+21:24:44   seed 0 n=    1:     711 labelled patches, classes=6, fit 4.8s
+21:24:47   seed 0 n=    2:    1659 labelled patches, classes=6, fit 3.2s
+21:24:49   seed 0 n=    5:    5756 labelled patches, classes=7, fit 2.0s
+21:24:51   seed 0 n=   10:   12005 labelled patches, classes=7, fit 2.3s
+21:24:55   seed 0 n=   25:   31970 labelled patches, classes=7, fit 3.2s
+21:24:59   seed 0 n=   50:   63330 labelled patches, classes=7, fit 3.4s
+21:25:04   seed 0 n=  100:  126587 labelled patches, classes=7, fit 4.7s
+21:25:15   seed 0 n=  250:  324986 labelled patches, classes=7, fit 9.0s
+21:25:24   seed 0 n= 1156:  280061 labelled patches, classes=7, fit 8.2s
+21:25:46   seed 1: k-means done (22s)
+21:25:50   seed 1 n=    1:     948 labelled patches, classes=4, fit 3.6s
+21:25:52   seed 1 n=    2:    2315 labelled patches, classes=5, fit 2.0s
+21:25:55   seed 1 n=    5:    6409 labelled patches, classes=6, fit 3.5s
+21:25:59   seed 1 n=   10:   12496 labelled patches, classes=6, fit 3.5s
+21:26:01   seed 1 n=   25:   31789 labelled patches, classes=7, fit 2.7s
+21:26:05   seed 1 n=   50:   65836 labelled patches, classes=7, fit 3.3s
+21:26:10   seed 1 n=  100:  129820 labelled patches, classes=7, fit 4.7s
+21:26:21   seed 1 n=  250:  325478 labelled patches, classes=7, fit 8.8s
+21:26:29   seed 1 n= 1156:  280061 labelled patches, classes=7, fit 7.8s
+21:26:52   seed 2: k-means done (23s)
+21:26:56   seed 2 n=    1:    1363 labelled patches, classes=3, fit 4.0s
+21:27:00   seed 2 n=    2:    2732 labelled patches, classes=5, fit 3.7s
+21:27:03   seed 2 n=    5:    6582 labelled patches, classes=6, fit 3.3s
+21:27:06   seed 2 n=   10:   12848 labelled patches, classes=6, fit 3.0s
+21:27:10   seed 2 n=   25:   33058 labelled patches, classes=7, fit 3.0s
+21:27:14   seed 2 n=   50:   66097 labelled patches, classes=7, fit 3.9s
+21:27:19   seed 2 n=  100:  129980 labelled patches, classes=7, fit 4.7s
+21:27:29   seed 2 n=  250:  324974 labelled patches, classes=7, fit 9.1s
+21:27:38   seed 2 n= 1156:  280061 labelled patches, classes=7, fit 7.9s
+21:28:03   seed 3: k-means done (25s)
+21:28:08   seed 3 n=    1:    1363 labelled patches, classes=4, fit 5.2s
+21:28:12   seed 3 n=    2:    2284 labelled patches, classes=5, fit 3.9s
+21:28:16   seed 3 n=    5:    6384 labelled patches, classes=7, fit 3.8s
+21:28:18   seed 3 n=   10:   13205 labelled patches, classes=7, fit 2.3s
+21:28:21   seed 3 n=   25:   33210 labelled patches, classes=7, fit 3.0s
+21:28:25   seed 3 n=   50:   65310 labelled patches, classes=7, fit 3.4s
+21:28:31   seed 3 n=  100:  131877 labelled patches, classes=7, fit 5.8s
+21:28:43   seed 3 n=  250:  325230 labelled patches, classes=7, fit 10.3s
+21:28:52   seed 3 n= 1156:  280061 labelled patches, classes=7, fit 7.7s
+21:29:10   seed 4: k-means done (19s)
+21:29:14   seed 4 n=    1:    1357 labelled patches, classes=4, fit 4.0s
+21:29:17   seed 4 n=    2:    2722 labelled patches, classes=5, fit 2.8s
+21:29:20   seed 4 n=    5:    6784 labelled patches, classes=6, fit 2.8s
+21:29:22   seed 4 n=   10:   13612 labelled patches, classes=7, fit 2.2s
+21:29:25   seed 4 n=   25:   33379 labelled patches, classes=7, fit 2.6s
+21:29:28   seed 4 n=   50:   65349 labelled patches, classes=7, fit 3.2s
+21:29:33   seed 4 n=  100:  127881 labelled patches, classes=7, fit 4.5s
+21:29:43   seed 4 n=  250:  322513 labelled patches, classes=7, fit 8.7s
+21:29:51   seed 4 n= 1156:  280061 labelled patches, classes=7, fit 7.7s
+21:29:51 Phase A done in 22.5 min, 380 models
+21:29:54   evaluated dg/test (161 images) 3s
+21:30:15   evaluated ld_val/rural (992 images) 21s
+21:30:30   evaluated ld_val/urban (677 images) 36s
+21:30:30 wrote 950 result rows; total 23.1 min

@@ -1,0 +1,41 @@
+device: cuda
+dg: 803 images {'DeepGlobe': 803}
+ld_train: 2522 images {'Rural': 1366, 'Urban': 1156}
+ld_val: 1669 images {'Rural': 992, 'Urban': 677}
+C:\Users\egest\.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\egest\.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\egest\.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+  val features 200/1669  53s
+  val features 400/1669  102s
+  val features 600/1669  152s
+  val features 800/1669  202s
+  val features 1000/1669  253s
+  val features 1200/1669  304s
+  val features 1400/1669  356s
+  val features 1600/1669  435s
+  saved loveda_val_features.npy in 476s
+  alignment dg[0] mean cosine fresh-vs-cache = 1.0000
+  alignment dg[401] mean cosine fresh-vs-cache = 1.0000
+  alignment dg[802] mean cosine fresh-vs-cache = 1.0000
+  alignment ld_train[0] mean cosine fresh-vs-cache = 1.0000
+  alignment ld_train[1261] mean cosine fresh-vs-cache = 1.0000
+  alignment ld_train[2521] mean cosine fresh-vs-cache = 1.0000
+  dg masks 400/803  19s
+  dg masks 800/803  37s
+  dg: class pixel shares 10.8% 57.8% 8.5% 11.2% 3.3% 8.5% | ignored 0.1%
+  ld_train masks 400/2522  3s
+  ld_train masks 800/2522  5s
+  ld_train masks 1200/2522  8s
+  ld_train masks 1600/2522  10s
+  ld_train masks 2000/2522  13s
+  ld_train masks 2400/2522  16s
+  ld_train: class pixel shares 35.8% 11.1% 5.3% 6.4% 5.2% 16.1% 20.2% | ignored 3.8%
+  ld_val masks 400/1669  3s
+  ld_val masks 800/1669  5s
+  ld_val masks 1200/1669  8s
+  ld_val masks 1600/1669  11s
+  ld_val: class pixel shares 36.1% 7.2% 4.7% 11.7% 4.4% 7.4% 28.6% | ignored 2.6%
+prepare done

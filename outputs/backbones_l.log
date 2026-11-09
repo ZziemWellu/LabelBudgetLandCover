@@ -1,0 +1,27 @@
+00:18:04 === backbone dinov2_l ===
+C:\Users\egest\.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+C:\Users\egest\.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+C:\Users\egest\.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+00:18:22     dinov2_l/dg 4/803 4s
+00:23:51     dinov2_l/dg 404/803 333s
+00:29:36     dinov2_l/dg 803/803 678s
+00:31:05   [dinov2_l] fitted DG-f0
+00:32:18   [dinov2_l] fitted DG-f1
+00:33:27   [dinov2_l] fitted DG-f2
+00:34:32   [dinov2_l] fitted DG-f3
+00:35:50   [dinov2_l] fitted DG-f4
+00:35:53     dinov2_l/ld_train 4/2522 3s
+00:40:52     dinov2_l/ld_train 404/2522 302s
+00:46:03     dinov2_l/ld_train 804/2522 613s
+00:51:15     dinov2_l/ld_train 1204/2522 925s
+00:56:25     dinov2_l/ld_train 1604/2522 1235s
+01:01:34     dinov2_l/ld_train 2004/2522 1544s
+01:06:55     dinov2_l/ld_train 2404/2522 1865s
+01:13:57   [dinov2_l] fitted LD-all
+01:25:02   [dinov2_l] scored DeepGlobe
+01:37:53   [dinov2_l] scored LoveDA Rural 769s
+01:46:48   [dinov2_l] scored LoveDA Urban 1304s
+01:46:49 backbones done
